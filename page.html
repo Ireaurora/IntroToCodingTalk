@@ -1,0 +1,52 @@
+<!-- This is a comment in HMTL. 
+        We will use these to add notes throughout this file and explanations for various parts of the code
+    -->
+
+
+<!-- Describes that this document is an HMTL5 document-->
+<!DOCTYPE html>
+
+<!-- Document start-->
+<html>
+    <!--The head contains information about the document. 
+    Here you might find imports of other files -->
+<head>
+    <!-- Title of the web page -->
+    <title>Parking Ticket Calculation</title>
+
+    <!-- Import the CSS file -->
+    <link rel="stylesheet" href="styles.css">
+
+     <!-- Import the JavaScript file -->
+    <script type="text/javascript" src="javascript.js"></script>
+
+<!-- Closing our head tag -->
+</head>
+
+<!-- The body is a container for anything that can be seen on the webpage -->
+<body>
+
+    <!-- Section in a HTML document-->
+  <div>
+      <!-- Large heading  -->
+    <h1>Parking Ticket</h1>
+
+        <!-- Label -->
+        <label>Fine amount:</label>
+
+        <input type="text" id="currentAmount">
+
+        <label>Location:</label>
+        <input type="text" id="fineLocation">
+
+        <!-- Button -->
+        <button class="button" onclick="calculate();">Calculate</button>
+
+        <!-- Smaller heading  -->
+        <h2>You have to pay:</h2>
+        <h2 id='finalFineAmount'></h2>
+    </div>
+
+    <!-- As always we open and close all our tags !  -->
+</body> 
+</html>
